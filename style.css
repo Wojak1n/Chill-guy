@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.face{
+    position: relative;
+    width: 180px;
+    height: 176px;
+    border-radius: 100% / 100% 100% 75% 70%;
+    background-color: rgba(250,166,135,255);
+    z-index: 4;
+}
+.ear{
+    position: absolute;
+    border-radius: 200px 10px 200px 0px;
+    height: 40px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(250,166,135,255);
+    left: 168px;
+    bottom: 82px;
+    transform: rotate(10deg);
+}
+.eartip{
+    position: absolute;
+    width: 29px;
+    height: 20Px;
+    border: 2PX solid transparent;
+    border-top: 2px solid #c54f0b;
+    border-radius: 59%;
+    transform: rotate(289deg);
+    left: 5px;
+    bottom: 15px;
+}
+.ear1{
+    position: absolute;
+    border-radius: 200px 10px 200px 0px;
+    height: 40px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(250,166,135,255);
+    left: -19px;
+    bottom: 82px;
+    transform: rotate(355deg);
+}
+.eartip1{
+    position: absolute;
+    width: 29px;
+    height: 20Px;
+    border: 2PX solid transparent;
+    border-top: 2px solid #c54f0b;
+    border-radius: 59%;
+    transform: rotate(47deg);
+    left: 1px;
+    bottom: 14px;
+}
+.eyebrow{
+    position: absolute;
+    width: 27px;
+    height: 10px;
+    background-color: #69200c;
+    border-radius: 100% / 100% 35% 160% 100%;
+    bottom: 136px;
+    left: 31px;
+    rotate: 180deg;
+}
+.eyebrow1{
+    width: 27px;
+    height: 10px;
+    background-color: #69200c;
+    border-radius: 100% / 100% 160% 35% 100%;
+    position: absolute;
+    bottom: 136px;
+    right: 29px;
+}
+.eye{
+    position: absolute;
+    height: 40px;
+    width: 35px;
+    border-radius: 50%;
+    left: 32px;
+    bottom: 92px;
+    background-color: white;
+    border-top: 4px solid rgba(103,37,20,255);
+    border-left: 4px solid rgba(103,37,20,255);
+}
+.inside{
+    position: absolute;
+    height: 20px;
+    width: 18px;
+    left: 6px;
+    bottom: 8px;
+    border-radius: 50%;
+    background-color: black;
+}
+.circle1{
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    height: 2px;
+    width: 2px;
+    left: 6px;
+    bottom: 4px;
+}
+.circle2{
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    left: 2px;
+    bottom: 13px;
+}
+.eye1{
+    position: absolute;
+    height: 40px;
+    width: 35px;
+    border-radius: 50%;
+    left: 126px;
+    bottom: 91px;
+    background-color: white;
+    border-top: 4px solid rgba(103,37,20,255);
+    border-right: 4px solid rgba(103,37,20,255);
+}
+.inside1{
+    position: absolute;
+    background-color: black;
+    height: 20px;
+    width: 18px;
+    border-radius: 50%;
+    bottom: 8px;
+    left: 6px;
+}
+.circle3{
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    height: 2px;
+    width: 2px;
+    left: 9px;
+    bottom: 4px;
+}
+.circle4{
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    left: 9px;
+    bottom: 14px;
+}
+.noise{
+    position: absolute;
+    border-radius: 60%;
+    height: 13px;
+    width: 17px;
+    background-color: rgba(246,128,112,255);
+    transform: rotate(185deg);
+    bottom: 73px;
+    left: 84px;
+}
+.cheek{
+    position: absolute;
+    border-radius: 50%;
+    width: 31px;
+    height: 29px;
+    bottom: 53px;
+    left: 10px;
+    background-color: rgba(243,132,117,255);
+}
+.cheek1{
+    position: absolute;
+    border-radius: 50%;
+    width: 31px;
+    height: 29px;
+    bottom: 53px;
+    left: 140px;
+    background-color: rgba(243,132,117,255);
+}
+.mouth{
+    position: absolute;
+    border-radius: 112px 112px 200px 200px;
+    background-color: rgba(108,38,24,255);
+    width: 52px;
+    height: 24px;
+    left: 67px;
+    bottom: 26px;
+}
+.tongue{
+    position: absolute;
+    border-radius:200px 200px 0px 0px;
+    height: 10px;
+    width: 25px;
+    background-color: rgba(213,66,84,255);
+    left: 13px;
+    bottom: 0px;
+}
+.teeth{
+    position: absolute;
+    border-radius: 0px 0px 200px 200px;
+    height: 8px;
+    width: 30px;
+    background-color: rgba(227,217,211,255);
+    left: 10px;
+    bottom: 16px;
+}
+.neck{
+    position: relative;
+    background-color: rgba(250, 143, 114, 255);
+    height: 30px;
+    width: 50px;
+    bottom: -86px;
+    left: -113px;
+    z-index: 2;
+    box-shadow: 0px 20px 0px 0px rgba(0,0,0,0.10) inset;
+    border-radius: 40%;
+}
+.clothes{
+    position: relative;
+    
+}
