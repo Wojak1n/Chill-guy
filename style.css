@@ -187,7 +187,7 @@
 .mouth{
     position: absolute;
     border-radius: 112px 112px 200px 200px;
-    background-color: rgba(108,38,24,255);
+    background-color: rgba(150,47,50,255);
     width: 52px;
     height: 24px;
     left: 67px;
@@ -224,5 +224,10 @@
 }
 .clothes{
     position: relative;
-    
+    height: 30px;
+    width: 63px;
+    bottom: -96px;
+    left: -170px;
+    background-color: rgba(68,136,146,255);
+    border-radius: 50%;
 }
