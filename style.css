@@ -637,9 +637,45 @@
   position: relative;
 }
 .sock-right{
-  
-
+  position: absolute;
+  background-color: white;
+  height: 18px;
+  width: 20px;
+  left: 1003px;
+  bottom: 964px;
+  border-radius: 0px 0px 200px 200px;
+  z-index: -1;
 }
 .sock-left{
-
+  position: absolute;
+  background-color: white;
+  height: 18px;
+  width: 20px;
+  left: 1003px;
+  bottom: 964px;
+  border-radius: 0px 0px 200px 200px;
+  z-index: -1;
+}
+.shoes{
+  position: relative;
+}
+.shoe-right{
+  position: absolute;
+  background-color: rgba(167,21,15,255);
+  border-radius: 0px 200px 74px 0px;
+  width: 40px;
+  height: 15px;
+  left: -109px;
+  bottom: -438px;
+  z-index: -2;
+}
+.shoe-left{
+  position: absolute;
+  background-color: rgba(167,21,15,255);
+  border-radius: 0px 200px 74px 0px;
+  width: 40px;
+  height: 15px;
+  left: -109px;
+  bottom: -438px;
+  z-index: -2;
 }
