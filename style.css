@@ -395,3 +395,61 @@
   left: 0px;
   z-index: -2;
 }
+
+.hands {
+  position: relative;
+}
+
+.hand-right {
+  position: absolute;
+  border-radius: 50%;
+  height: 27px;
+  width: 25px;
+  background-color: rgba(251, 165, 138, 255);
+  bottom: -154px;
+  left: -1px;
+}
+
+.finger1 {
+  position: absolute;
+}
+
+.finger2 {
+  position: absolute;
+}
+
+.finger3 {
+  position: absolute;
+}
+
+.finger4 {
+  position: absolute;
+}
+
+.finger5 {
+  position: absolute;
+}
+
+.hand-right {
+  position: absolute;
+}
+
+.finger1 {
+  position: absolute;
+}
+
+.finger2 {
+  position: absolute;
+}
+
+.finger3 {
+  position: absolute;
+}
+
+.finger4 {
+  position: absolute;
+}
+
+.finger5 {
+  position: absolute;
+}
