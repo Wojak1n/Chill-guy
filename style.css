@@ -605,3 +605,41 @@
   bottom: -287px;
   z-index: -1;
 }
+.legs{
+  position: relative;
+}
+.leg-right{
+  position: absolute;
+  width: 122px;
+  height: 100px;
+  background: #fea58b;
+  clip-path: polygon(35% 0, 74% 0, 62% 103%, 43% 100%);
+  bottom: -414px;
+  left: -154px;
+  rotate: 1deg;
+  box-shadow: -10px 19px 2px rgba(0,0,1,0.15) inset;
+  transform: rotateY(147deg);
+  z-index: -3;
+}
+.leg-left{
+  position: absolute;
+  width: 122px;
+  height: 100px;
+  background: #fea58b;
+  clip-path: polygon(35% 0, 70% 0, 62% 103%, 43% 100%);
+  box-shadow: -10px 21px 2px rgba(0,0,1,0.15) inset;
+  bottom: -414px;
+  left: -243px;
+  rotate: 0deg;
+  z-index: -3;
+}
+.sockes{
+  position: relative;
+}
+.sock-right{
+  
+
+}
+.sock-left{
+
+}
